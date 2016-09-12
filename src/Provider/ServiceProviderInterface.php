@@ -5,6 +5,7 @@ namespace FelipeBastosWeb\Provider;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface as ProviderInterface;
 
+use Silex\Application;
 use Silex\Api\BootableProviderInterface;
 
 interface ServiceProviderInterface extends ProviderInterface, BootableProviderInterface {
