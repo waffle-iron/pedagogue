@@ -19,7 +19,8 @@ $app->register(new ServiceControllerServiceProvider());
 
 $app->register(new ArangoServiceProvider());
 
-
+/*
 $app->register(new MonologServiceProvider(), array(
     'monolog.logfile' => __DIR__.'/../var/logs/silex_dev.log',
 ));
+*/
