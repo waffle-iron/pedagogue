@@ -1,9 +1,24 @@
 {
+    "name": "felipebastosweb/pedagogue",
+    "description": "Sistema de Apoio Pedagógico para Escolas",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "FelipeBastosWeb",
+            "email": "felipebastosweb@gmail.com",
+            "site": "felipebastosweb@github.io"
+        }
+    ],
     "require": {
         "silex/silex": "^2.0",
         "symfony/browser-kit": "^3.1",
         "symfony/config": "^3.1",
         "symfony/console": "^3.1",
         "triagens/arangodb": "^3.0"
+    },
+    "minimum-stability": "master-dev",
+    "autoload": {
+        "psr-0": { "": "src/" }
     }
 }
