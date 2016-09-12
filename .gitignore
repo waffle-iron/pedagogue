@@ -1,5 +1,5 @@
 ### Ignore Composer and Vendor
-composer
+# composer #permitir usar composer para atualizar autoload em produção
 # vendor/ #necessário para não precisar modificar o projeto em produção
 var/cache/*
 var/log/*
