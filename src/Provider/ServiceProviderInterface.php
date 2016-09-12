@@ -7,7 +7,7 @@ use Pimple\ServiceProviderInterface as ProviderInterface;
 
 use Silex\Api\BootableProviderInterface;
 
-interface ServiceProviderInterface implements ProviderInterface, BootableProviderInterface {
+interface ServiceProviderInterface extends ProviderInterface, BootableProviderInterface {
 
     public function register(Container $container);
     
