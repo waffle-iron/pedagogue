@@ -1,5 +1,5 @@
 ### Ignore Composer and Vendor
 composer
-vendor/
+# vendor/ #necessário para não precisar modificar o projeto em produção
 var/cache/*
 var/log/*
