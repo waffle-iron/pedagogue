@@ -1,0 +1,5 @@
+### Ignore Composer and Vendor
+composer
+vendor/
+var/cache/*
+var/log/*

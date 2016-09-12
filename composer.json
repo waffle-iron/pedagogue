@@ -1,0 +1,9 @@
+{
+    "require": {
+        "silex/silex": "^2.0",
+        "symfony/browser-kit": "^3.1",
+        "symfony/config": "^3.1",
+        "symfony/console": "^3.1",
+        "triagens/arangodb": "^3.0"
+    }
+}
