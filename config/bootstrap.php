@@ -7,7 +7,7 @@ use Silex\Provider\MonologServiceProvider;
 use Silex\Provider\WebProfilerServiceProvider;
 
 
-
+$app = new Silex\Application;
 
 //$app['twig.path'] = array(__DIR__.'/../templates');
 //$app['twig.options'] = array('cache' => __DIR__.'/../var/cache/twig');
