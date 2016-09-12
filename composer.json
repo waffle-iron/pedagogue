@@ -18,6 +18,8 @@
     },
     "minimum-stability": "dev",
     "autoload": {
-        "psr-0": { "\\FelipeBastosWeb": "src/" }
+        "psr-4": {
+            "FelipeBastosWeb\\": "src/"
+        }
     }
 }
