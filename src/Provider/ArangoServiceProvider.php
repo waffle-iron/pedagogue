@@ -8,15 +8,15 @@ namespace FelipeBastosWeb\Provider;
 //https://github.com/arangodb/arangodb-php
 
 use Silex\Application;
-use Silex\ServiceProviderInterface;
+use Pimple\Container;
 
-use triagens\ArangoDb\Conection;
+use triagens\ArangoDb\Connection;
 use triagens\ArangoDb\ConnectionOptions;
 use triagens\ArangoDb\UpdatePolicy;
 
 class ArangoServiceProvider implements ServiceProviderInterface {
 
-    public function register(Application $app)
+    public function register(Container $app)
     {
         $app['odm.arangodb.options'] = [
 	        ConnectionOptions::OPTION_ENDPOINT => 'tcp://127.0.0.1:8529',
