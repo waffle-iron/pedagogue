@@ -6,8 +6,7 @@
     "authors": [
         {
             "name": "FelipeBastosWeb",
-            "email": "felipebastosweb@gmail.com",
-            "site": "felipebastosweb.github.io"
+            "email": "felipebastosweb@gmail.com"
         }
     ],
     "require": {
@@ -17,7 +16,7 @@
         "symfony/console": "^3.1",
         "triagens/arangodb": "^3.0"
     },
-    "minimum-stability": "master-dev",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": { "": "src/" }
     }
