@@ -27,8 +27,16 @@ class Matricula {
   public function setTurno(Turno $turno) {
     $this->turno = $turno;
   }
+
+  public function getSerie() {
+    return $this->serie;
+  }
+
+  public function setSerie (Série $serie) {
+    $this->serie = $serie;
+  }
   
-  public function getStatus (){
+  public function getStatus(){
     return $this->status;
   }
 
