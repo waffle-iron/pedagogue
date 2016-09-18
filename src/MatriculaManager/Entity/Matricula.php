@@ -1,6 +1,7 @@
 <?php
 
-namespace MatriculaManager/Entity;
+namespace MatriculaManager\Entity;
+
 
 class Matricula {
   
@@ -32,10 +33,18 @@ class Matricula {
     return $this->serie;
   }
 
-  public function setSerie (Série $serie) {
+  public function setSerie(Série $serie) {
     $this->serie = $serie;
   }
   
+  public function getTurma() {
+    return $this->turma;
+  }
+
+  public function setTurma(Turma $turma) {
+    $this->turma = $turma;
+  }
+
   public function getStatus(){
     return $this->status;
   }
